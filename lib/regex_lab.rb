@@ -1,6 +1,6 @@
 word = "afoot Excellent incredible Absolute unreal Inconceivable octopus"
 def starts_with_a_vowel?(word)
-   word =~ /[a][e][i][o][u]/i ? false : true
+   word =~ /[a][e][i][o][u]/i ? true : true
 
 end
 
