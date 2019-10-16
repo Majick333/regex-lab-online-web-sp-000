@@ -1,6 +1,6 @@
+word = "afoot Excellent incredible Absolute unreal Inconceivable octopus"
 def starts_with_a_vowel?(word)
-  if  word.scan(/[aeiou]/ ) == "a","e","i","o","u"
-    return true
+  p word =~ /[aeiou]/ ? true : false
   end
 end
 
